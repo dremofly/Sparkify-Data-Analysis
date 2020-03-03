@@ -197,11 +197,11 @@ Gradient-boosted tree的训练结果如下：
 
 下图为Random Forest的各个特征的importances
 
-![image-20200303231422737](/Users/hong/Dropbox/udacity_data_science/8-Project8/project/github/blog/asset/image-20200303231422737.png)
+![image-20200303231422737](asset/image-20200303231422737.png)
 
 下图为Gradient-boosted tree的各个特征的importances
 
-![image-20200303231549608](/Users/hong/Dropbox/udacity_data_science/8-Project8/project/github/blog/asset/image-20200303231549608.png)
+![image-20200303231549608](asset/image-20200303231549608.png)
 
 对于这两个模型的训练模型来说最重要的特征都是`trend_songs`，也就是一个用户的歌曲播放数量的趋势。对于Gradient-boosted tree来说，它的第二第三重要的特征是`songratio`,`nsongs_perh`，这与`trend_songs`的相关性都比较强。而对于Random Forests来说，他的第二重要的特征是`nadvert_perh`，也就是用户每小时的广告的数量，这个特征与`trend_songs`的相关性属于中等。
 
